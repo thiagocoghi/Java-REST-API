@@ -1,0 +1,13 @@
+com\thiagocoghi\demo\exception\RestExceptionHandler.class
+com\thiagocoghi\demo\DemoApplication.class
+com\thiagocoghi\demo\exception\ResourceNotFoundException.class
+com\thiagocoghi\demo\repository\UserRepository.class
+com\thiagocoghi\demo\dto\ProductDTO.class
+com\thiagocoghi\demo\service\ProductService.class
+com\thiagocoghi\demo\controller\ProductController.class
+com\thiagocoghi\demo\controller\UserController.class
+com\thiagocoghi\demo\dto\UserDTO.class
+com\thiagocoghi\demo\entity\Product.class
+com\thiagocoghi\demo\entity\User.class
+com\thiagocoghi\demo\service\UserService.class
+com\thiagocoghi\demo\repository\ProductRepository.class

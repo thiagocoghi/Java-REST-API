@@ -1,0 +1,24 @@
+@SpringBootTest
+@AutoConfigureMockMvc
+public class UserControllerTest {
+
+    @Autowired
+    private MockMvc mockMvc;
+
+    @Test
+    public void testCreateUser() throws Exception {
+        String userJson = "{\"name\":\"Thiago\",\"email\":\"thiago@email.com\"}";
+
+        mockMvc.perform(post("/users")
+                .contentType(MediaType.APPLICATION_JSON)
+                .content(userJson))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.name").value("Thiago"));
+    }
+
+    @Test
+    public void testGetAllUsers() throws Exception {
+        mockMvc.perform(get("/users"))
+                .andExpect(status().isOk());
+    }
+}
