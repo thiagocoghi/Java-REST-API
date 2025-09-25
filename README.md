@@ -2,7 +2,7 @@
 
 Simple Spring Boot REST API with CRUD endpoints for Users and Products.
 Features: Spring Boot, JPA/Hibernate, H2 (dev), Validation, Swagger (OpenAPI), Docker.
-
+move inside the folder SpringBoot API than follow the steps below
 ## Run locally
 1. Build:
    ```bash
